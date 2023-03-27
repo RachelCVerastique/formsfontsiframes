@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="header">How to Care for Jumping Spiders</h1>
+        <hr>
+        <nav>
+            <li id="navLink">
+                <a class="anchor" title="Jumper care" href="index.html" data-link>Phiddipus Audax</a>
+            </li>
+        </nav>
+    </header>
+    <div id="videoDiv">
+        <iframe id="video" width="660" height="415" src="https://www.youtube.com/embed/GjKg2gbbVpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <br>
+    <p>
+        Do you have more spider questions? Well we have answers!<br>
+        If not leave us a message and let us know what you think of the video!
+    </p>
+    <div class="container">
+        <div id="messageFormDiv">
+            <form action="/action_page.php">
+                <label class="labels" for="name">Name:</label><br>
+                    <input class="inputM" type="text" id="name" name="name" value=""><br>
+                <label class="labels" for="phone">Phone Number:</label><br>
+                    <input class="inputM" type="tel" id="phone" name="phone" value=""><br>
+                <label class="labels" for="email">E-Mail:</label><br>
+                    <input class="inputM" type="email" id="email" name="email" value=""><br><br>
+<!--radio buttons-->
+<!--                <p id="radioButtonQ">How did you hear about us?</p>-->
+                <label class="labels" >How did you hear about us?</label><br>
+                <input type="radio" id="Fb" name="hear_about" value="HTML">
+                <label class="answers" for="fb">Facebook spider group</label><br>
+                <input type="radio" id="friend" name="hear_about" value="CSS">
+                <label class="answers" for="friend">A friend</label><br>
+                <input type="radio" id="ad" name="hear_about" value="JavaScript">
+                <label class="answers" for="ad">Online Ad</label><br><br>
+<!--check boxes-->
+                <label class="labels" >Where are you in your jumping spider journey?</label><br>
+                <input type="checkbox" id="thinking" name="thinking" value="thinking">
+                <label class="answers" for="thinking"> Thinking about owning a jumping spider</label><br>
+                <input type="checkbox" id="new" name="new" value="new">
+                <label class="answers" for="new"> Im new to owning a jumping spider</label><br>
+                <input type="checkbox" id="expert" name="expert" value="expert">
+                <label class="answers" for="expert"> I'm an expert jumping spider owner</label><br><br>
+<!--message box                -->
+                <label class="labels" for="message">Message:</label><br>
+                    <textarea class="inputM" id="message" name="message" rows="10" cols="30"></textarea>
+
+<!--submit and clear buttons-->
+                <input type="submit" value="Submit">
+                <input type="reset" value="clear">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
